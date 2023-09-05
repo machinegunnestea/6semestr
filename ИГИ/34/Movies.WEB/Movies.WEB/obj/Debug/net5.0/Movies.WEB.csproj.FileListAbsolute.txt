@@ -1,0 +1,9 @@
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.csproj.AssemblyReference.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.AssemblyInfoInputs.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.AssemblyInfo.cs
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.csproj.CoreCompileInputs.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.MvcApplicationPartsAssemblyInfo.cs
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.MvcApplicationPartsAssemblyInfo.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.RazorAssemblyInfo.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.WEB\obj\Debug\net5.0\Movies.WEB.RazorAssemblyInfo.cs

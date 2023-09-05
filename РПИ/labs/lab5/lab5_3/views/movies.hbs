@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Фильмы</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/movies_styles.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <h2>Таблица фильмов</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Название</th>
+            <th>Цена</th>
+            <th>Описание</th>
+            <th>Жанр</th>
+        </tr>
+        {{#each movies}}
+            <tr>
+                <td>{{this.id}}</td>
+                <td>{{this.name}}</td>
+                <td>{{this.price}}</td>
+                <td>{{this.description}}</td>
+                <td>{{this.genre}}</td>
+            </tr>
+        {{/each}}
+    </table>
+    <div style="margin-top: 10px;">
+        <form id="inputForm" action="/movie/input" mathod="GET">
+            <input type="hidden" id="inputFormAction" name="action">
+            <input type="hidden" id="inputIdField" name="id">
+            <input type="submit" id="createButton" value="Добавить фильм">
+            <input type="submit" id="updateButton" value="Изменить фильм">
+        </form>
+        <form id="deleteForm" action="/movie/delete" method="POST">
+            <input type="hidden" id="deleteIdField" name="id">
+            <input type="submit" id="delete" value="Удалить фильм">
+        </form>
+    </div>
+    <script>
+        let lastSelected = -1;
+
+        $("tr").click((e) => {
+            let nextSelected = $("tr").index(e.currentTarget);
+
+            if (lastSelected != -1 && nextSelected != 0) {
+                $($("tr")[lastSelected]).css("background-color", "");
+            }
+
+            if (nextSelected != 0) {
+                $(e.currentTarget).css("background-color", "limegreen");
+                lastSelected = nextSelected;
+            }
+        });
+
+        $("#inputForm").submit((e) => {
+            if ($(e.originalEvent.submitter).is($("#createButton"))) {
+                $("#inputFormAction").val("create");
+            }
+            else {
+                if (lastSelected == -1) {
+                    e.preventDefault();
+                }
+                else {
+                    $("#inputFormAction").val("update");
+                    $("#inputIdField").val($($("tr")[lastSelected]).children().first().text());
+                }
+            }
+        });
+
+        $("#deleteForm").submit((e) => {
+            if (lastSelected == -1) {
+                e.preventDefault();
+            }
+            else {
+                $("#deleteIdField").val($($("tr")[lastSelected]).children().first().text());
+            }
+        });
+    </script>
+</body>
+<html>

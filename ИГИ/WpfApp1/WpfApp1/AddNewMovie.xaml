@@ -1,0 +1,32 @@
+﻿<Window x:Class="UI.AddNewMovie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="AddNewMovie" Height="300" Width="300"
+        Name="AddNewMovieWnd">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="200">
+            <TextBlock Text="Title"/>
+            <TextBox Name="MovieNameBlock" Text="{Binding NewMovieName}"/>
+            <TextBlock Text="Cost"/>
+            <TextBox Name="MovieCostBlock" Text="{Binding NewMovieCost}"/>
+            <TextBlock Text="MovieType"/>
+            <ComboBox ItemsSource="{Binding AllMovieType}" 
+                      DisplayMemberPath="Title"
+                      SelectedItem="{Binding NewMovieType}"/>
+        </StackPanel>
+        <Button Grid.Row="1" Content="Add Movie"
+                Command="{Binding AddMovie}"
+                CommandParameter="{Binding ElementName=AddNewMovieWnd}"/>
+    </Grid>
+</Window>

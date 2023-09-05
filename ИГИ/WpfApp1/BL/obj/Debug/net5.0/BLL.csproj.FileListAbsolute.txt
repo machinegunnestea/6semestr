@@ -1,0 +1,15 @@
+D:\uni\6sem\ИГИ\WpfApp1\BL\bin\Debug\net5.0\BLL.deps.json
+D:\uni\6sem\ИГИ\WpfApp1\BL\bin\Debug\net5.0\BLL.dll
+D:\uni\6sem\ИГИ\WpfApp1\BL\bin\Debug\net5.0\ref\BLL.dll
+D:\uni\6sem\ИГИ\WpfApp1\BL\bin\Debug\net5.0\BLL.pdb
+D:\uni\6sem\ИГИ\WpfApp1\BL\bin\Debug\net5.0\DAL.dll
+D:\uni\6sem\ИГИ\WpfApp1\BL\bin\Debug\net5.0\DAL.pdb
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.csproj.CopyComplete
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.dll
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\ref\BLL.dll
+D:\uni\6sem\ИГИ\WpfApp1\BL\obj\Debug\net5.0\BLL.pdb

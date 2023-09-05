@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(125, 230, 99);
+}   
+.menu {
+    width: 19%;
+}
+.nav {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.section {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.inks>ul>li,
+.nav>ul>li {
+    list-style-type: none;
+    padding: 8px 10px;
+    margin-top: 7px;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+}
+
+.section p {
+    width: 100%;
+    text-align: justify;
+}

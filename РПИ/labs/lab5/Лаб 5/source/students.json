@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "fullname": "Иванов И. И.",
+    "birthdate": "05.01.2003",
+    "groupName": "ИП-21",
+    "faculty": "ФАИС"
+  },
+  {
+    "id": 2,
+    "fullname": "Петров П. П.",
+    "birthdate": "07.10.2001",
+    "groupName": "ИТП-41",
+    "faculty": "ФАИС"
+  },
+  {
+    "id": 3,
+    "fullname": "Сидоров С. С.",
+    "birthdate": "23.05.2002",
+    "groupName": "УП-31",
+    "faculty": "ГЭФ"
+  },
+  {
+    "id": 4,
+    "fullname": "Козлов К. К.",
+    "birthdate": "17.08.2000",
+    "groupName": "ЭП-51",
+    "faculty": "ЭФ"
+  }
+]

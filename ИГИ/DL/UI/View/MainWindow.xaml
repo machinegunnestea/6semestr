@@ -1,0 +1,86 @@
+﻿<Window x:Class="UI.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0" SelectedItem="{Binding SelectedTabItem}">
+            <TabItem Name="CarTab">
+                <TabItem.Header>
+                    <TextBlock Text="Car"/>
+                </TabItem.Header>
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteItem}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView x:Name="ViewAllCars" ItemsSource="{Binding AllCar}" SelectedItem="{Binding SelectedCar}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Title"
+                                            DisplayMemberBinding="{Binding Path=Title}"/>
+                            <GridViewColumn Header="Cost"
+                                            DisplayMemberBinding="{Binding Path=Cost}"/>
+                            <GridViewColumn Header="Type"
+                                            DisplayMemberBinding="{Binding Path=CarTypeTitle}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Name="UsersTab">
+                <TabItem.Header>
+                    <TextBlock Text="User"/>
+                </TabItem.Header>
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteItem}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView x:Name="ViewAllUsers" ItemsSource="{Binding AllUser}" SelectedItem="{Binding SelectedUser}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Login" 
+                                            DisplayMemberBinding="{Binding Path=Login}"/>
+                            <GridViewColumn Header="Password"
+                                            DisplayMemberBinding="{Binding Path=Password}"/>
+                            <GridViewColumn Header="Role"
+                                            DisplayMemberBinding="{Binding Path=Role}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Name="CarTypeTab">
+                <TabItem.Header>
+                    <TextBlock Text="Type"/>
+                </TabItem.Header>
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteItem}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView x:Name="ViewAllCarTypes" ItemsSource="{Binding AllCarType}" SelectedItem="{Binding SelectedCarType}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Title"
+                                             DisplayMemberBinding="{Binding Path=Title}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button Content="New Car" Command="{Binding AddNewCarWnd}"/>
+            <Button Content="Find Car" Command="{Binding FindCarWnd}"/>
+            <Button Content="New CarType" Command="{Binding AddNewCarTypeWnd}"/>
+            <Button Content="New User" Command="{Binding AddNewUserWnd}"/>
+            <Button Content="Find User" Command="{Binding FindUserWnd}"/>
+        </StackPanel>
+    </Grid>
+</Window>

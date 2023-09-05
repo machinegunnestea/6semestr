@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_8", "Lab_8\Lab_8.pyproj", "{230607D3-5046-448D-A517-22B0C7D057B0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_8_Task_4", "Lab_8_Task_4\Lab_8_Task_4.pyproj", "{D1EE63EB-3D18-41AB-BDA2-D9A9439F9664}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_8_Task_5-6", "Lab_8_Task_5-6\Lab_8_Task_5-6.pyproj", "{A8173719-E041-4279-A29C-EF17E1457D99}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_8_Task_7", "Lab_8_Task_7\Lab_8_Task_7.pyproj", "{55F831FB-9351-46D2-90AF-69136C7D0812}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_8_Task_8", "Lab_8_Task_8\Lab_8_Task_8.pyproj", "{325EA82E-C3FA-456F-8C09-7DBF823DD849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230607D3-5046-448D-A517-22B0C7D057B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230607D3-5046-448D-A517-22B0C7D057B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EE63EB-3D18-41AB-BDA2-D9A9439F9664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EE63EB-3D18-41AB-BDA2-D9A9439F9664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8173719-E041-4279-A29C-EF17E1457D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8173719-E041-4279-A29C-EF17E1457D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F831FB-9351-46D2-90AF-69136C7D0812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F831FB-9351-46D2-90AF-69136C7D0812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325EA82E-C3FA-456F-8C09-7DBF823DD849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325EA82E-C3FA-456F-8C09-7DBF823DD849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C0C24EC-3BE9-4B1C-BFFF-358B10147264}
+	EndGlobalSection
+EndGlobal

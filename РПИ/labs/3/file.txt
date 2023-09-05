@@ -1,0 +1,6 @@
+Fri Mar 31 2023 10:56:27 GMT+0300 (Москва, стандартное время) | Тип: add | Товар: {"ram":"128","support":"mi","sensor":"sensorr"}
+Fri Mar 31 2023 10:56:27 GMT+0300 (Москва, стандартное время) | Тип: add | Товар: {"ram":"128","support":"mi","sensor":"sensorr"}
+Fri Mar 31 2023 10:56:44 GMT+0300 (Москва, стандартное время) | Тип: update | Товар: {"ram":"1024","support":"mi","sensor":"Magnetometer"}
+Fri Mar 31 2023 10:56:44 GMT+0300 (Москва, стандартное время) | Тип: update | Товар: {"ram":"1024","support":"mi","sensor":"Magnetometer"}
+Fri Mar 31 2023 10:56:46 GMT+0300 (Москва, стандартное время) | Тип: add | Товар: {"ram":"128","support":"mi","sensor":"sensorr"}
+Fri Mar 31 2023 10:56:46 GMT+0300 (Москва, стандартное время) | Тип: add | Товар: {"ram":"128","support":"mi","sensor":"sensorr"}

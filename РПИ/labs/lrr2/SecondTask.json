@@ -1,0 +1,17 @@
+[
+	{
+		"ram": "1024",
+		"support": "ios",
+		"sensor": "Accelerometer"
+	},
+	{
+		"ram": "256",
+		"support": "android",
+		"sensor": "Gyroscope"
+	},
+	{
+		"ram": "512",
+		"support": "mi",
+		"sensor": "Magnetometer"
+	}
+]

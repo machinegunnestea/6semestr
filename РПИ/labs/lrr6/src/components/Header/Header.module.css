@@ -1,0 +1,13 @@
+.header {
+    background-color: rgb(0, 88, 240);
+
+  }
+  .header img{
+    width: 45px;
+    border-radius: 25px;
+  }
+  .title{
+    font-weight: 700;
+    color:rgb(38, 29, 154);
+  }
+  

@@ -1,0 +1,15 @@
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\bin\Debug\net5.0\Movies.DAL.deps.json
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\bin\Debug\net5.0\Movies.DAL.runtimeconfig.json
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\bin\Debug\net5.0\Movies.DAL.runtimeconfig.dev.json
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\bin\Debug\net5.0\Movies.DAL.dll
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\bin\Debug\net5.0\ref\Movies.DAL.dll
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\bin\Debug\net5.0\Movies.DAL.pdb
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.csproj.AssemblyReference.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.AssemblyInfoInputs.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.AssemblyInfo.cs
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.csproj.CoreCompileInputs.cache
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.dll
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\ref\Movies.DAL.dll
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.pdb
+D:\uni\6sem\ИГИ\34\Movies.WEB\Movies.DAL\obj\Debug\net5.0\Movies.DAL.genruntimeconfig.cache

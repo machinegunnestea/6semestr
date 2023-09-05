@@ -1,0 +1,12 @@
+.rating {
+    font-size: 34px;
+  }
+  
+  .star {
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .selected {
+    color: rgb(249, 64, 2);
+  }

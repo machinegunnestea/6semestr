@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=NESTEA;Initial Catalog=lrr2;Integrated Security=True;Pooling=False"
+  }
+}

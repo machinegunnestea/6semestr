@@ -1,0 +1,11 @@
+th, td, table {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+form {
+    display: inline-block;
+}

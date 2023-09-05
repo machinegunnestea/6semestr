@@ -1,0 +1,11 @@
+form {
+    display: inline-block;
+}
+
+input[type=text] {
+    position: sticky;
+}
+
+input[type=submit] {
+    width: 100%;
+}

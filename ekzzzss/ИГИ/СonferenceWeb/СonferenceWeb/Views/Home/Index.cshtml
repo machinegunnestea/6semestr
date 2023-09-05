@@ -1,0 +1,49 @@
+﻿@model СonferenceWeb.ViewModels.ConferanceListViewModel
+
+<form method="get" asp-controller="Account" asp-action="ConferenceRegister" asp-route-area="">
+    <input style="width:200px;" type="submit" value="Register on conference" class="btn btn-outline-secondary" />
+</form>
+@{
+    var items = Model.Conferences.Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.ConferenceName })
+        .ToList();
+}
+<form asp-controller="Home" asp-action="SetConference" style="margin-top:20px;"
+      method="post" class="form-horizontal">
+    Конференция <select name="conferationId" onchange="this.form.submit();"
+                        asp-items="items"></select>
+</form>
+@if (Model.Talk != null && Model.Conference != null)
+{
+    <table class="table">
+        <tr>
+            <th>Номер конференции</th>
+            <th>Начало</th>
+            <th>Кофе-пауза</th>
+            <th>Банкет</th>
+        </tr>
+        <tr>
+            <td>@Model.Conference.Id</td>
+            <td>@Model.Conference.StartTime</td>
+            <td>@Model.Conference.CoffeeBrake</td>
+            <td>@Model.Conference.Banket</td>
+        </tr>
+    </table>
+
+    <table class="table">
+        <tr>
+            <th>Название доклада</th>
+            <th>Описание</th>
+            <th>Докладчик</th>
+        </tr>
+        <tr>
+            @foreach (var item in Model.Talk)
+            {
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td>@item.Participant</td>
+            }
+
+        </tr>
+    </table>
+}
+

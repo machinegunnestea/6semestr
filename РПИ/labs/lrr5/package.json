@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.2",
+    "sequelize": "^6.18.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  },
+  "jest": {
+    "testRegex": "./tests/.*.js"
+  },
+  "scripts": {
+    "test5_1": "mocha ./tests/test5_1.js --test",
+    "test5_2": "jest ./tests/test5_2.js -- --test"
+  }
+}

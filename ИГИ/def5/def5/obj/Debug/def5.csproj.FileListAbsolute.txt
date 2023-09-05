@@ -1,0 +1,10 @@
+D:\uni\6sem\ИГИ\def5\def5\bin\Debug\def5.exe.config
+D:\uni\6sem\ИГИ\def5\def5\bin\Debug\def5.exe
+D:\uni\6sem\ИГИ\def5\def5\bin\Debug\def5.pdb
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.csproj.AssemblyReference.cache
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.Form1.resources
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.Properties.Resources.resources
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.csproj.GenerateResource.cache
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.csproj.CoreCompileInputs.cache
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.exe
+D:\uni\6sem\ИГИ\def5\def5\obj\Debug\def5.pdb

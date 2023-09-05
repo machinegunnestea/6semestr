@@ -1,0 +1,17 @@
+.myTitile{
+    color: teal;
+
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.myImg{
+    width: 100px;
+    height: 100px;
+
+}

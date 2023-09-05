@@ -1,0 +1,16 @@
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\fourth.exe
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\fourth.deps.json
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\fourth.runtimeconfig.json
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\fourth.runtimeconfig.dev.json
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\fourth.dll
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\ref\fourth.dll
+D:\uni\6sem\МТ\labs\fourth\fourth\bin\Debug\net5.0\fourth.pdb
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.csproj.AssemblyReference.cache
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.AssemblyInfoInputs.cache
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.AssemblyInfo.cs
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.csproj.CoreCompileInputs.cache
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.dll
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\ref\fourth.dll
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.pdb
+D:\uni\6sem\МТ\labs\fourth\fourth\obj\Debug\net5.0\fourth.genruntimeconfig.cache

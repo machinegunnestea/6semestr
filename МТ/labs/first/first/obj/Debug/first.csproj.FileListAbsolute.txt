@@ -1,0 +1,10 @@
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.csproj.AssemblyReference.cache
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.Form1.resources
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.Properties.Resources.resources
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.csproj.GenerateResource.cache
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.csproj.CoreCompileInputs.cache
+D:\uni\6sem\МТ\labs\first\first\bin\Debug\first.exe.config
+D:\uni\6sem\МТ\labs\first\first\bin\Debug\first.exe
+D:\uni\6sem\МТ\labs\first\first\bin\Debug\first.pdb
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.exe
+D:\uni\6sem\МТ\labs\first\first\obj\Debug\first.pdb

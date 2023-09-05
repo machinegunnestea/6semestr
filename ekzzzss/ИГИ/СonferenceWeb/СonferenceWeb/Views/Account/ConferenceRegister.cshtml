@@ -1,0 +1,42 @@
+﻿@model СonferenceWeb.ViewModels.ConferenceRegistration
+
+@{
+    List<Conference> conferences = ViewBag.Conferences;
+}
+
+<form method="post" asp-controller="Account" asp-action="ConferenceRegister">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="FirstName"></label><br />
+        <input asp-for="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+    <div>
+        <label asp-for="Surname"></label><br />
+        <input asp-for="Surname" />
+        <span asp-validation-for="Surname"></span>
+    </div>
+    <div>
+        <label asp-for="Email"></label><br />
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="Phone"></label><br />
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+    <div class="form-group" method="post" data-ajax="true" data-ajax-method="post" data-ajax-complete="completed">
+        <label asp-for="ConferenceId" class="control-label">Conference</label>
+        @Html.DropDownListFor(model => model.ConferenceId, conferences
+        .Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.ConferenceName }));
+    </div>
+    <div>
+        <label asp-for="Password"></label><br />
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <input type="submit" value="Регистрация" />
+    </div>
+</form>

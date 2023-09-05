@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddNewMovie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddNewMovieType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddNewUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FindMovie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FindMovieType.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FindUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MessageView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddNewMovie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddNewMovieType.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddNewUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FindMovie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FindMovieType.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FindUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MessageView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

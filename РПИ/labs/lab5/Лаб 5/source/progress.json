@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "studentID": 1,
+        "semesterID": 1,
+        "subjectID": 1,
+        "mark": 2
+    }, 
+    {
+        "id": 2,
+        "studentID": 1,
+        "semesterID": 2,
+        "subjectID": 1,
+        "mark": 1
+    }, 
+    {
+        "id": 3,
+        "studentID": 2,
+        "semesterID": 3,
+        "subjectID": 2,
+        "mark": 9
+    }, 
+    {
+        "id": 4,
+        "studentID": 3,
+        "semesterID": 2,
+        "subjectID": 2,
+        "mark": 5
+    }, 
+    {
+        "id": 5,
+        "studentID": 4,
+        "semesterID": 2,
+        "subjectID": 3,
+        "mark": 7
+    }, 
+    {
+        "id": 6,
+        "studentID": 4,
+        "semesterID": 3,
+        "subjectID": 4,
+        "mark": 4
+    }
+]

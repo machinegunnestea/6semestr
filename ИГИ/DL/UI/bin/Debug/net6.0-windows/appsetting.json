@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=LAPTOP-DPLPEKB6;Initial Catalog=SHWPF2;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True;"
+  }
+}

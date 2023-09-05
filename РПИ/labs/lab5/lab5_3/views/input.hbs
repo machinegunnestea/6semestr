@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <title>Ввод фильма</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/input_styles.css">
+</head>
+<body>
+    <h2>Ввод фильма</h2>
+    <form action="/movie/{{path}}" method="POST">
+        <label>ID:</label><br>
+        <input type="text" name="id" value="{{movie.id}}"><br><br>
+        <label>Название:</label><br>
+        <input type="text" name="name" value="{{movie.name}}"><br><br>
+        <label>Цена:</label><br>
+        <input type="text" name="price" value="{{movie.price}}"><br><br>
+        <label>Описание:</label><br>
+        <input type="text" name="description" value="{{movie.description}}"><br><br>
+        <label>Жанр:</label><br>
+        <input type="text" name="genre" value="{{movie.genre}}"><br><br>
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>

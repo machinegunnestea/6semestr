@@ -1,0 +1,9 @@
+
+ Добавлен товар: ram: 1024, support: andriod, sensor accelerometer 
+ в: Thu Apr 06 2023 11:08:46 GMT+0300 (Москва, стандартное время)
+ Добавлен товар: ram: 512, support: ios, sensor ios 
+ в: Thu Apr 06 2023 11:08:46 GMT+0300 (Москва, стандартное время)
+ Добавлен товар: ram: 256, support: ios, sensor magnetometer 
+ в: Thu Apr 06 2023 11:08:46 GMT+0300 (Москва, стандартное время)
+ Товары изменены 
+ в: Thu Apr 06 2023 11:08:46 GMT+0300 (Москва, стандартное время)

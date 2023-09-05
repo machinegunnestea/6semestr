@@ -1,0 +1,19 @@
+.tagg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag {
+    display: flex;
+    margin: 10px 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: teal;
+    background: white;
+}
